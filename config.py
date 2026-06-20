@@ -28,7 +28,7 @@ LOGIN_PASS = ""
 # Status & defaults
 STATUS_LIMIT = 10
 STATUS_UPDATE_INTERVAL = 15
-DEFAULT_UPLOAD = "rc"  # "rc" | "gd" | "ddl"
+DEFAULT_UPLOAD = "gd"  # "rc" | "gd" | "ddl"
 INCOMPLETE_TASK_NOTIFIER = False
 EXCLUDED_EXTENSIONS = ""
 
@@ -85,7 +85,7 @@ LEECH_NAME_SWAP = ""
 
 # Leech
 LEECH_SPLIT_SIZE = 0  # bytes; 0 = Telegram default
-AS_DOCUMENT = False
+AS_DOCUMENT = True
 EQUAL_SPLITS = False
 MEDIA_GROUP = False
 LEECH_PREFIX = ""
@@ -127,7 +127,7 @@ JD_MODE = False
 
 # Google Drive
 GDRIVE_ID = ""
-GD_DESP = "Uploaded with NEO-WZML"
+GD_DESP = "Uploaded by Destiny 🦖"
 IS_TEAM_DRIVE = False
 USER_TD_MODE = False
 USER_TD_SA = ""
